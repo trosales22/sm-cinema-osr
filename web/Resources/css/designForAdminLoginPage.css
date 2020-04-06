@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 50%;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.button {   
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    //background-color: #4CAF50;
+    background-color: #199ac1;  
+    border: none;
+    border-radius: 15px;
+    ox-shadow: 0 9px #999;
+}
+	
+.button:hover {
+    //background-color: #3e8e41;
+    background-color: #04405b;
+}
+	
+.button:active {
+    //background-color: #3e8e41;
+    background-color: #04405b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+body {
+  background: #199ac1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #199ac1, #8DC26F);
+  background: -moz-linear-gradient(right, #199ac1, #8DC26F);
+  background: -o-linear-gradient(right, #199ac1, #8DC26F);
+  background: linear-gradient(to left, #199ac1, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}

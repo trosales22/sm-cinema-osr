@@ -1,0 +1,83 @@
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=file],
+input[type=time],
+input[type=number],
+input[type=date]{
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+	
+input[type=checkbox]{
+	font-size: 16px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	height: 50px;
+	width: 100px;
+	vertical-align: middle;
+}
+	
+select {
+	width: 300px;
+	padding: 16px 20px;
+	border: 2px solid #ccc;
+	font-size: 16px;
+	border-radius: 4px;
+	background-color: white;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+	
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+	
+.button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	//background-color: #4CAF50;
+        background-color: #199ac1;
+	border: none;
+	border-radius: 15px;
+	ox-shadow: 0 9px #999;
+}
+	
+.button:hover {
+    //background-color: #3e8e41;
+    background-color: #04405b;
+}
+	
+.button:active {
+    //background-color: #3e8e41;
+    background-color: #04405b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+
